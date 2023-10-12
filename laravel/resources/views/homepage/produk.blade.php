@@ -10,9 +10,9 @@
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="show">
               <div class="img-box">
-                <img src="images/p1.png" alt="">
+                <img src="images/p1.png" alt="" name>
               </div>
               <div class="detail-box">
                 <h6>
@@ -35,7 +35,7 @@
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="show">
               <div class="img-box">
                 <img src="images/p2.png" alt="">
               </div>
@@ -60,7 +60,7 @@
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="show">
               <div class="img-box">
                 <img src="images/p3.png" alt="">
               </div>
@@ -85,7 +85,7 @@
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="show">
               <div class="img-box">
                 <img src="images/p4.png" alt="">
               </div>
@@ -110,7 +110,7 @@
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="show">
               <div class="img-box">
                 <img src="images/p5.png" alt="">
               </div>
@@ -135,7 +135,7 @@
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="show">
               <div class="img-box">
                 <img src="images/p6.png" alt="">
               </div>
@@ -160,7 +160,7 @@
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="show">
               <div class="img-box">
                 <img src="images/p7.png" alt="">
               </div>
@@ -185,7 +185,7 @@
         </div>
         <div class="col-sm-6 col-md-4 col-lg-3">
           <div class="box">
-            <a href="">
+            <a href="show">
               <div class="img-box">
                 <img src="images/p8.png" alt="">
               </div>
@@ -210,7 +210,7 @@
         </div>
       </div>
       <div class="btn-box">
-        <a href="">
+        <a href="show">
           View All Products
         </a>
       </div>

@@ -26,6 +26,7 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/logom.png" alt="" style="width: 100px; height 75px; ">
           </a>
+          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,7 +48,15 @@
                 </li>
               </ul>
               
-              <div class="login_btn-contanier ml-0 ml-lg-5">
+              <div class="cart-icon">
+                <a class="nav-link" href="{{ route('keranjang') }}"><img src="images/keranjangputih.png"></a>
+              </div>
+              <style>
+                .cart-icon {
+                  margin-left: 600px; 
+                }
+              </style>
+              <div class="login_btn-contanier ml-auto">
                 <a href="{{ route('login') }}">
                   <img src="images/user.png" alt="">
                   <span>
