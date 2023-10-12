@@ -28,6 +28,19 @@ class HomepageController extends Controller
         return view('homepage.produk', compact('produk'),$data);
     }
 
+<<<<<<< HEAD
+    public function show() {
+        $data = array('title' => 'show');
+        return view('homepage.show', $data);
+    }
+
+    public function keranjang() {
+        $data = array('title' => 'keranjang');
+        return view('homepage.keranjang', $data);
+    }
+
+}
+=======
     public function kategori() {
         $produk = produk::all();
         $data = array('title' => 'Kategori');
@@ -44,3 +57,4 @@ class HomepageController extends Controller
         return view('item.content', $data);
     }
 }
+>>>>>>> 19d6b05f6c1cb6c1f44d5fa6f0d56b76b4380e73
