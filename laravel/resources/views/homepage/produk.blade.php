@@ -6,6 +6,7 @@
                 <h2>
                     Latest Products
                 </h2>
+                
             </div>
             <div class="row">
                 @foreach ($produk as $p)
