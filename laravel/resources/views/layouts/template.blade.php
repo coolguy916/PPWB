@@ -63,7 +63,7 @@
     <!-- Custom CSS -->
     <link href="{{ asset('dist/css/style.min.css') }}" rel="stylesheet" />
 
-    <title>{{ $title }}</title>
+    <title>fee fruit</title>
 </head>
 
 <body>
