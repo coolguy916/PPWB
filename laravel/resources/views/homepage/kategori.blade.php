@@ -8,7 +8,26 @@
                 </h2>
             </div>
             <div class="row">
-                @foreach ($produk as $p)
+                @foreach ($produk_indonesia as $p)
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="box">
+                            <a href="{{ route('item_content') }}">
+                                <div class="img-box">
+                                    <img src="{{ asset('storage/fruit/' . $p->buah_gambar) }}" alt="">
+                                </div>
+                                <div class="detail-box">
+                                    <h6>{{ $p->buah_nama }}</h6>
+                                    <h6>Rp. <span>{{ $p->harga }}</span></h6>
+                                </div>
+                                <img src="{{ asset('storage/country/' . $p->negara->negara_image) }}" alt=""
+                                    class="new">
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            <div class="row">
+                @foreach ($america_product as $p)
                     <div class="col-sm-6 col-md-4 col-lg-3">
                         <div class="box">
                             <a href="{{ route('item_content') }}">
