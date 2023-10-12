@@ -37,15 +37,17 @@ class HomepageController extends Controller
     {
         // Get the ID of the country "Indonesia"
         $indonesiaId = negara::where('negara_name', 'Indonesia')->pluck('id')->first();
-        $amerikaId = negara::where('negara_name', 'USA')->pluck('id')->first();
+        $belandaId = negara::where('negara_name', 'Belanda')->pluck('id')->first();
+        $amerikaId = negara::where('negara_name', 'Amerika')->pluck('id')->first();
 
         // Fetch products specific to the country "Indonesia"
         $produk_indonesia = produk::where('negara_id', $indonesiaId)->paginate(8);
+        $produk_belanda = produk::where('negara_id', $belandaId)->paginate(8);
         $america_product = produk::where('negara_id', $amerikaId)->paginate(8);
         $data = array('title' => 'Kategori');
 
         // Pass the data to the view
-        return view('homepage.kategori', compact('produk_indonesia', 'america_product','data'));
+        return view('homepage.kategori', compact('produk_indonesia', 'america_product', 'produk_belanda', 'data'));
     }
 
     public function item()
@@ -63,5 +65,6 @@ class HomepageController extends Controller
         $data = array('title' => 'keranjang');
         return view('homepage.keranjang', $data);
     }
+    
 
 }
