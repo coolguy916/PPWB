@@ -23,6 +23,50 @@
     </div>
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+<<<<<<< HEAD
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logom.png" alt="" style="width: 100px; height 75px; ">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('about') }}"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('produk') }}"> Product </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ route('kontak') }}">Contact us</a>
+                </li>
+              </ul>
+              
+              <div class="cart-icon">
+                <a class="nav-link" href="{{ route('keranjang') }}"><img src="images/keranjangputih.png"></a>
+              </div>
+              <style>
+                .cart-icon {
+                  margin-left: 600px; 
+                }
+              </style>
+              <div class="login_btn-contanier ml-auto">
+                <a href="{{ route('login') }}">
+                  <img src="images/user.png" alt="">
+                  <span>
+                    Login
+                  </span>
+                </a>
+              </div>
+          </div>
+=======
             <a class="navbar-brand" href="/">
                 <img src="images/logom  .png" alt="" style="width: 100px; height 75px; ">
             </a>
@@ -100,6 +144,7 @@
                     </div>
                 </div>
             </div>
+>>>>>>> 19d6b05f6c1cb6c1f44d5fa6f0d56b76b4380e73
 
         </nav>
     </div>

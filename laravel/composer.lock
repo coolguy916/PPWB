@@ -1423,6 +1423,17 @@
             "time": "2023-08-15T14:27:00+00:00"
         },
         {
+<<<<<<< HEAD
+            "name": "league/commonmark",
+            "version": "2.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "3669d6d5f7a47a93c08ddff335e6d945481a1dd5"
+            },
+            "dist": {
+                "type": "zip",
+=======
             "name": "laravel/ui",
             "version": "v4.2.2",
             "source": {
@@ -1494,6 +1505,7 @@
             },
             "dist": {
                 "type": "zip",
+>>>>>>> 19d6b05f6c1cb6c1f44d5fa6f0d56b76b4380e73
                 "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/3669d6d5f7a47a93c08ddff335e6d945481a1dd5",
                 "reference": "3669d6d5f7a47a93c08ddff335e6d945481a1dd5",
                 "shasum": ""

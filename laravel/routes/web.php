@@ -17,6 +17,19 @@ use App\Http\Controllers\Keranjang;
 |
 */
 
+<<<<<<< HEAD
+Route::get('/', [\App\Http\Controllers\HomepageController::class,'index']);
+Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
+Route::get('/show', [HomepageController::class, 'show'])->name('show');
+Route::get('/about', [HomepageController::class, 'about'])->name('about');
+Route::get('/produk', [HomepageController::class, 'produk'])->name('produk');
+Route::get('/news', [NewspageController::class, 'index']);
+Route::get('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/admin', [adminController::class, 'index'])->name('index');
+Route::get('/form', [adminController::class, 'form'])->name('form');
+Route::get('/list', [adminController::class, 'list'])->name('list');
+Route::get('/keranjang', [HomepageController::class, 'keranjang'])->name('keranjang');
+=======
 Route::group(['prefix' => '/'], function () {
     Route::get('/', [HomepageController::class, 'index']);
     Route::get('/kontak', [HomepageController::class, 'kontak'])->name('kontak');
@@ -26,6 +39,7 @@ Route::group(['prefix' => '/'], function () {
     Route::get('/item_content', [HomepageController::class, 'item_content'])->name('item_content');
     Route::get('/kategori', [HomepageController::class, 'kategori'])->name('kategori');
 });
+>>>>>>> 19d6b05f6c1cb6c1f44d5fa6f0d56b76b4380e73
 
 // Routes for News
 Route::group(['prefix' => '/news'], function () {

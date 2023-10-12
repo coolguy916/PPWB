@@ -8,23 +8,24 @@
             </h4>
             <div class="box">
               <div class="img-box">
-                <img src="images/telephone-symbol-button.png" alt="">
+                <a href="#"><img src="images/telephone-symbol-button.png" alt="">
               </div>
               <div class="detail-box">
                 <h6>
                   +01 123567894
                 </h6>
               </div>
+            </a>
             </div>
             <div class="box">
               <div class="img-box">
-                <img src="images/email.png" alt="">
+                <a href="#"><img src="images/email.png" alt="">
               </div>
               <div class="detail-box">
                 <h6>
                   feefruit@gmail
                 </h6>
-              </div>
+              </div></a>
             </div>
           </div>
         </div>
