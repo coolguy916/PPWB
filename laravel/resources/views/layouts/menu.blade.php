@@ -47,15 +47,13 @@
                     </li>
 
                 </ul>
-
-
                 <div class="login_btn-contanier ml-0 ml-lg-5">
                     <div class="nav-item dropdown">
                         @guest
                             @if (Route::has('login'))
                                 <div class="nav-item">
-                                    <a href="{{ route('login') }}"><img
-                                        src="images/user.png" alt=""><span> {{ __('Login') }}</span>
+                                    <a href="{{ route('login') }}"><img src="images/user.png" alt=""><span>
+                                            {{ __('Login') }}</span>
                                     </a>
                                 </div>
                             @endif
@@ -72,13 +70,13 @@
                                 <img src="../assets/images/users/1.jpg" alt="user" class="rounded-circle"
                                     width="31" />
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-end user-dd animated bg-dark" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu dropdown-menu-end user-dd animated bg-dark"
+                                aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="javascript:void(0)"><i class="mdi mdi-account me-1 ms-1"></i>
                                     My
                                     Profile</a>
-                                <a class="dropdown-item" href="javascript:void(0)"><i class="mdi mdi-wallet me-1 ms-1"></i>
-                                    My
-                                    Balance</a>
+                                <a class="dropdown-item" href="{{route('keranjang')}}"><i class="mdi mdi-wallet me-1 ms-1"></i>
+                                    keranjang</a>
                                 <a class="dropdown-item" href="javascript:void(0)"><i class="mdi mdi-email me-1 ms-1"></i>
                                     Inbox</a>
                                 <div class="dropdown-divider"></div>
