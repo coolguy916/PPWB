@@ -253,6 +253,10 @@
                             <a href="{{ route('list_negara') }}" class="sidebar-link"><i
                                     class="mdi mdi-note-outline"></i><span class="hide-menu"> negara</span></a>
                         </li>
+                        <li class="sidebar-item">
+                            <a href="{{ route('list_hero') }}" class="sidebar-link"><i
+                                    class="mdi mdi-note-outline"></i><span class="hide-menu"> homepage</span></a>
+                        </li>
                     </ul>
             </ul>
 

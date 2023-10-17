@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\Checkout;
 use App\Http\Controllers\Keranjang;
+use App\Http\Controllers\PageController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,6 +50,14 @@ Route::group(['prefix' => '/admin'], function () {
     Route::POST('/store_buah', [AdminController::class, 'store_buah'])->name('store_buah');
     Route::get('/update_buah/{id}/update', [AdminController::class, 'update_page_buah'])->name('update_page_buah');
     Route::put('/update_buah/{id}', [AdminController::class, 'edit_buah'])->name('edit_buah');
+
+    //class hero
+    Route::get('/list_hero', [PageController::class, 'list_hero'])->name('list_hero');
+    Route::get('/form_hero', [PageController::class, 'create'])->name('form_hero');
+    Route::POST('/store_hero', [PageController::class, 'storehero'])->name('admin.storehero');
+    Route::delete('/destroy/{id}', [PageController::class, 'destroy'])->name('destroy');
+
+
 
 });
 
